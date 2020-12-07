@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 import os, json
-os.chdir('C:\\Users\\Josh Agan\\Documents\\movie-app')
+os.chdir('C:\\Users\\me\\Documents\\movie-app') #change file path when using
 
 workbook = load_workbook('movies.xlsx')
 sheet = workbook['Sheet1']
